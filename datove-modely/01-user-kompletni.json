@@ -18,7 +18,7 @@
 				"ztpp": "no",
 				"zletileDite": "no"
 			}
-        ],
+		],
 		"permanentniAdresa": {
 			"ulice": "Uličková", //[TabCisZam/AdrTrvUlice]
 			"popCislo": "13", //[TabCisZam/AdrTrvPopCislo]
@@ -26,7 +26,7 @@
 			"mesto": "Praha", //[TabCisZam/AdrTrvMisto]
 			"psc": "11000", //[TabCisZam/AdrTrvPSC]
 			"zeme": "Česká republika" // [TabCisZam/AdrTrvZeme]
-		},// pripadne cele null
+		}, // pripadne cele null
 		"kontaktniAdresa": {
 			"ulice": "Mostová", //[TabCisZam/AdrKontUlice]
 			"popCislo": "12", //[TabCisZam/AdrKontPopCislo]
@@ -34,7 +34,7 @@
 			"mesto": "Praha", //[TabCisZam/AdrKontMisto]
 			"psc": "12000", //[TabCisZam/AdrKontPSC]
 			"zeme": "Česká republika" //[TabCisZam/AdrKontZeme]
-		},// pripadne cele null
+		}, // pripadne cele null
 		"prechodnaAdresa": {
 			"ulice": "Plochá", //[TabCisZam/AdrPrechUlice]
 			"popCislo": "11", //[TabCisZam/AdrPrechPopCislo]
@@ -42,7 +42,7 @@
 			"mesto": "Praha", //[TabCisZam/AdrPrechMisto]
 			"psc": "13000", //[TabCisZam/AdrPrechPSC]
 			"zeme": "Česká republika" //[TabCisZam/AdrPrechZeme]
-		},// pripadne cele null
+		}, // pripadne cele null
 		"zdravotniPojistovnaAStav": {
 			"duchody": {
 				"pobiramDuchod": true, //NESYNCHRONIZUJE SE, bude vydedukováno
@@ -100,8 +100,8 @@
 		"pravdivostUdaju": true, //NESYNCHRONIZUJE SE
 		"druhaStatniPrislusnost": "cz", //NESYNCHRONIZUJE SE
 		"rezidentura": "true", // [TabZamMzd/NerezidentDane] NUTNO DOSPECIFIKOVAT, STÁT NEBO TRUE/FALSE
-    "RezidenturaVyhodnoceni": "konzultace", // [TabZamMzd/NerezidentDane] NUTNO DOSPECIFIKOVAT, STÁT NEBO TRUE/FALSE
-    "rezidenturaVeState": "cz",
+		"rezidenturaVyhodnoceni": "konzultace", // [TabZamMzd/NerezidentDane] NUTNO DOSPECIFIKOVAT, STÁT NEBO TRUE/FALSE
+		"rezidenturaVeState": "cz",
 		"rezidenturaID": "8905061597", //NESYNCHRONIZUJE SE
 		"cisloDokladu": "2005612315", //[TabCisZam/CisloOP/CisloPasu]
 		"typDokladu": "Pas", //NESYNCHRONIZUJE SE
@@ -124,5 +124,5 @@
 			"type": "string",
 			"placeholder?": "S / M / L /XL"
 		}
-	]//pripadne null
+	] //pripadne null
 }
