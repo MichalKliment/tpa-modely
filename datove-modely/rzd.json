@@ -1,0 +1,105 @@
+{
+  "uid": "0xAAAAA",
+  "tenant": "Helios3015",
+  "rzd": {
+    "slevySNarokem": {
+      "slevaNaPoplatnika": 4096, // flag
+      "zakladniSlevaNaInvaliditu": 4096, // flag
+      "rozsirenaSlevaNaInvaliditu": 4096, // flag
+      "slevaNaDrziteleZTP": 4096, // flag
+      "slevaNaStudent": 4096, // flag
+      "slevaNaManzelkuManzela": {
+        "jmeno": "Dana",
+        "prijmeni": "Bubnova",
+        "rd": "0000",
+        "mesiceKtereUplatnuji": 4096, // flag
+        "ztp": 4096 // flag
+      },
+      "slevaNaUmisteniDitete": [
+        {
+          "jmeno": "Dana",
+          "prijmeni": "Bubnova",
+          "rd": "0000",
+          "castka": "3000Kč"
+        }
+      ],
+      "nezdanitelneCasti": {
+        "dary": "24000Kč",
+        "urokyZUveruNaFinancovaniBytovychPotreb": {
+          "castka": "3000Kč",
+          "adresa": {
+            "ulice": "Roháčova",
+            "popCislo": "1205",
+            "orCislo": "69",
+            "misto": "Praha",
+            "psc": "13000",
+            "zeme": "Česká republika"
+          },
+          "spoluUplatnuje": {
+            "jmeno": "Michal",
+            "prijmeni": "Buben",
+            "adresa": {
+              "ulice": "Roháčova",
+              "popCislo": "1205",
+              "orCislo": "69",
+              "misto": "Praha",
+              "psc": "13000",
+              "zeme": "Česká republika"
+            }
+          },
+          "penzijniPripojisteniNeboPenzijniPojisteniNeboDoplnkovePenzijniSporeni": "3000Kč",
+          "pojistneNaSoukromeZivotniPojisteni": "3000Kč",
+          "clenskePrispevkyClenaOdboroveOrganizace": "3000Kč",
+          "uhradaZaZkouskyOverujiciVysledkyDalsihoVzdelavani": "3000Kč"
+        }
+      },
+      "deti": [
+        {
+          "jmeno": "Martin",
+          "prijemni": "Kliment",
+          "rc": "2222222222",
+          "poradi": 1,
+          "ztp": false,
+          "zletile": false,
+          "mesiceKtereUplatnuji": 4096
+        },
+        {
+          "jmeno": "Martin",
+          "prijemni": "Kliment",
+          "rc": "2222222222",
+          "poradi": 1,
+          "ztp": false,
+          "zletile": true,
+          "mesiceKtereUplatnuji": 4096
+        }
+      ]
+    },
+    "aplikovaneSlevy": {
+      "slevaNaPoplatnika": 4096, // flag
+      "zakladniSlevaNaInvaliditu": 4096, // flag
+      "rozsirenaSlevaNaInvaliditu": 4096, // flag
+      "slevaNaDrziteleZTP": 4096, // flag
+      "slevaNaStudenta": 4096, // flag
+      "deti": [
+        {
+          "jmeno": "Martin",
+          "prijemni": "Kliment",
+          "rc": "2222222222",
+          "poradi": 1,
+          "ztp": false,
+          "zletile": false,
+          "mesiceKtereUplatnuji": 4096
+        },
+        {
+          "jmeno": "Martin",
+          "prijemni": "Kliment",
+          "rc": "2222222222",
+          "poradi": 1,
+          "ztp": false,
+          "zletile": true,
+          "mesiceKtereUplatnuji": 4096
+        }
+      ]
+    }
+  }
+}

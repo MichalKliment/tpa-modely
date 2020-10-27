@@ -1,0 +1,128 @@
+{
+	"karta": {
+		"deti": [
+			//NESYNCHRONIZUJI SE
+			{
+				"jmeno": "Radek",
+				"prijmeni": "Nový",
+				"rodneCislo": "0000251651",
+				"narokVeVysi": "firstchild",
+				"ztpp": "no",
+				"zletileDite": "yes"
+			},
+			{
+				"jmeno": "Anna",
+				"prijmeni": "Nová",
+				"rodneCislo": "1056052020",
+				"narokVeVysi": "secondchild",
+				"ztpp": "no",
+				"zletileDite": "no"
+			}
+        ],
+		"permanentniAdresa": {
+			"ulice": "Uličková", //[TabCisZam/AdrTrvUlice]
+			"popCislo": "13", //[TabCisZam/AdrTrvPopCislo]
+			"orCislo": "12", //[TabCisZam/AdrTrvOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrTrvMisto]
+			"psc": "11000", //[TabCisZam/AdrTrvPSC]
+			"zeme": "Česká republika" // [TabCisZam/AdrTrvZeme]
+		},// pripadne cele null
+		"kontaktniAdresa": {
+			"ulice": "Mostová", //[TabCisZam/AdrKontUlice]
+			"popCislo": "12", //[TabCisZam/AdrKontPopCislo]
+			"orCislo": "13", //[TabCisZam/AdrKontOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrKontMisto]
+			"psc": "12000", //[TabCisZam/AdrKontPSC]
+			"zeme": "Česká republika" //[TabCisZam/AdrKontZeme]
+		},// pripadne cele null
+		"prechodnaAdresa": {
+			"ulice": "Plochá", //[TabCisZam/AdrPrechUlice]
+			"popCislo": "11", //[TabCisZam/AdrPrechPopCislo]
+			"orCislo": "91", //[TabCisZam/AdrPrechOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrPrechMisto]
+			"psc": "13000", //[TabCisZam/AdrPrechPSC]
+			"zeme": "Česká republika" //[TabCisZam/AdrPrechZeme]
+		},// pripadne cele null
+		"zdravotniPojistovnaAStav": {
+			"duchody": {
+				"pobiramDuchod": true, //NESYNCHRONIZUJE SE, bude vydedukováno
+				"predcasny": true, // SYNCHRONIZUJE SE, NUTNO URČIT ATRIBUT V HEO [TabDuchod/DruhDuchodu]
+				"invalidni": true, // SYNCHRONIZUJE SE, NUTNO URČIT ATRIBUT V HEO [TabDuchod/DruhDuchodu]
+				"starobni": true, // SYNCHRONIZUJE SE, NUTNO URČIT ATRIBUT V HEO [TabDuchod/DruhDuchodu]
+				"jinyDuchod": true, // NESYNCHRONIZUJE SE, bude vydedukováno podle "jiny"
+				"jiny": "vdovský" // SYNCHRONIZUJE SE, NUTNO URČIT ATRIBUT V HEO  null pokud neni
+			},
+			"zdravPojistovna": 111, //[TamZamMzd/ZdravPojistovna] null pokud nema v čr
+			"cisloPojistence": "8905061597", // [TamZamMzd/CisloPojistence] null pokud nema v čr
+			"invalidita": 0, //NESYNCHRONIZUJE SE
+			"zdravotniZnevyhodneni": "ozz", //NESYNCHRONIZUJE SE
+			"ztpp": false, //NESYNCHRONIZUJE SE
+			"a1": true //NESYNCHRONIZUJE SE
+		},
+		"jmeno": "John", //[TabCisZam/Jmeno]
+		"prijmeni": "Doe", //[TabCisZam/Prijmeni]
+		"email": "john@doe.cz", //[TabKontakty/Spojeni - druh 10]
+		"titulpred": "MSc.", //NESYNCHRONIZUJE SE
+		"titulza": "CSs.", //NESYNCHRONIZUJE SE
+		"rodnePrijmeni": "Doe", //[TabCisZam/RodnePrijmeni]
+		"pohlavi": "man", //NESYNCHRONIZUJE SE
+		"datumNarozeni": "1989-06-04T22:00:00.000Z", //[TabCisZam/DatumNarozeni]
+		"mistoNarozeni": "Karlovy Vary", //[TabCisZam/MistoNarozeni]
+		"rodneCislo": "8905061597", //[TabCisZam/RodneCislo]
+		"rodinnyStav": "divorced", //[TabCisZam/RodinnyStav]
+		"vzdelani": "dr", //[TabZamVzd/Kod]
+		"pocetVychDeti": 2, // [TamZamMzd/PocetVychDeti]
+		"statniPrislusnost": "ge", //[TabCisZam/StatniPrislus]
+		"druhaStatniPrislusnostCheck": true, //NESYNCHRONIZUJE SE
+		"kontaktniAdresaStejna": false, //NESYNCHRONIZUJE SE
+		"zdrzovaniVCR": true, //NESYNCHRONIZUJE SE
+		"prvniZamestnaniVCR": false, //NESYNCHRONIZUJE SE
+		"studiumVCR": false, //NESYNCHRONIZUJE SE
+		"formaVyplaty": "bankcr", //NESYNCHRONIZUJE SE
+		"cisloUctu": "123456789", //[TabBankSpojeni/CisloUctu]  null u zahraničího učtu
+		"idUstavu": "0200", //[TabBankSpojeni/IDUstavu]  null u zahraničího učtu
+		"iban": "1234567897897846513", // NUTNO DOŘEŠIT V HEO - null u českého učtu
+		"exekuce": true, //NESYNCHRONIZUJE SE
+		"prohlaseniKProhlaseni": true, //NESYNCHRONIZUJE SE
+		"chciProhlaseni": true, //NESYNCHRONIZUJE SE
+		"zakladniSlevaNaPoplatnika": true, //NESYNCHRONIZUJE SE
+		"mamdeti": true, //NESYNCHRONIZUJE SE
+		"dalsiPoplatnik": true, //NESYNCHRONIZUJE SE
+		"jmenoPoplatnika": "Radka", //NESYNCHRONIZUJE SE
+		"prijmeniPoplatnika": "Doe", //NESYNCHRONIZUJE SE
+		"rodneCisloPoplatnika": "987654321", //NESYNCHRONIZUJE SE
+		"trvalyPobytPoplatnika": "Kolín", //NESYNCHRONIZUJE SE
+		"uplatnujePoplatnik": "no", //NESYNCHRONIZUJE SE
+		"zamestnaniPoplatnika": true, //NESYNCHRONIZUJE SE
+		"platceDanePoplatnika": "ONE a.s.", //NESYNCHRONIZUJE SE
+		"adresaPlatceDanePoplatnika": "Ostravní 20,  11000 Praha", //NESYNCHRONIZUJE SE
+		"soucasneNeuplatnuji": true, //NESYNCHRONIZUJE SE
+		"pravdivostUdaju": true, //NESYNCHRONIZUJE SE
+		"druhaStatniPrislusnost": "cz", //NESYNCHRONIZUJE SE
+		"rezidentura": "true", // [TabZamMzd/NerezidentDane] NUTNO DOSPECIFIKOVAT, STÁT NEBO TRUE/FALSE
+    "RezidenturaVyhodnoceni": "konzultace", // [TabZamMzd/NerezidentDane] NUTNO DOSPECIFIKOVAT, STÁT NEBO TRUE/FALSE
+    "rezidenturaVeState": "cz",
+		"rezidenturaID": "8905061597", //NESYNCHRONIZUJE SE
+		"cisloDokladu": "2005612315", //[TabCisZam/CisloOP/CisloPasu]
+		"typDokladu": "Pas", //NESYNCHRONIZUJE SE
+		"vydalStat": "ge", //NESYNCHRONIZUJE SE
+		"datumExpirace": "2021-05-25T22:00:00.000Z", //NESYNCHRONIZUJE SE
+		"identifikace": "8905061597", //NESYNCHRONIZUJE SE
+		"dalsiPracovniPomer": true, //NESYNCHRONIZUJE SE
+		"nazevDalsihoZamestnavatele": "Další zaměstnavatel s.r.o.", //NESYNCHRONIZUJE SE
+		"sidloDalsihoZamestnavatele": "cz", //NESYNCHRONIZUJE SE
+		"zakladniSlevaNaInvaliditu": true, //NESYNCHRONIZUJE SE
+		"rozsirenaSlevaNaInvaliditu": true, //NESYNCHRONIZUJE SE
+		"slevaNaDrziteleZTPP": true, //NESYNCHRONIZUJE SE
+		"slevaNaStudenta": true //NESYNCHRONIZUJE SE
+	},
+	"dodatecneAtributy": [
+		//SYNCHRONIZUJE SE, NUTNO DOŘEŠIT V HEO
+		{
+			"nazev": "Velikost rukavic",
+			"value": "M",
+			"type": "string",
+			"placeholder?": "S / M / L /XL"
+		}
+	]//pripadne null
+}

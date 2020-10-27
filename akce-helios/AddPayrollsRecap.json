@@ -1,0 +1,17 @@
+/*
+  jeste neni hotove
+*/
+
+{
+  "tenancyName": "Helios3015",
+  "title": "Složka mzdové recapitulace - Leden2020",
+  "message": "Dobrý den, vystavili jsme novou složku recapitulace",
+  "attachments": // Nepovinny
+  [
+    {
+      "fileId": "78e5490e-5274-4d72-84df-39a2b447566a",
+      "name": "LedenTpaPrehled.pdf",
+      "type": "application/pdf"
+    }
+  ]
+}
