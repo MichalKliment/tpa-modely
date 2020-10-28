@@ -62,17 +62,39 @@
 				"jmeno": "Radek",
 				"prijmeni": "Nový",
 				"rodneCislo": "0000251651",
-				"narokVeVysi": "firstchild",
-				"ztpp": "no",
-				"zletileDite": "yes"
+				"uplatneni": [
+					{
+						"narokVeVysi": "firstchild",
+						"ztpp": "no",
+						"zletileDite": "no",
+						"mesice": 4032
+					},
+					{
+						"narokVeVysi": "firstchild",
+						"ztpp": "no",
+						"zletileDite": "yes",
+						"mesice": 63
+					}
+				]
 			},
 			{
 				"jmeno": "Anna",
 				"prijmeni": "Nová",
 				"rodneCislo": "1056052020",
-				"narokVeVysi": "secondchild",
-				"ztpp": "no",
-				"zletileDite": "no"
+				"uplatneni": [
+					{
+						"narokVeVysi": "secondchild",
+						"ztpp": "no",
+						"zletileDite": "no",
+						"mesice": 4032
+					},
+					{
+						"narokVeVysi": "notapply",
+						"ztpp": "no",
+						"zletileDite": "no",
+						"mesice": 63
+					}
+				]
 			}
 		],
 		"permanentniAdresa": {
