@@ -9,14 +9,14 @@
 				"uplatneni": [
 					{
 						"narokVeVysi": "firstchild",
-						"ztpp": "no",
-						"zletileDite": "no",
+						"ztpp": false,
+						"zletileDite": false,
 						"mesice": 4032
 					},
 					{
 						"narokVeVysi": "firstchild",
-						"ztpp": "no",
-						"zletileDite": "yes",
+						"ztpp": false,
+						"zletileDite": true,
 						"mesice": 63
 					}
 				]
@@ -28,14 +28,14 @@
 				"uplatneni": [
 					{
 						"narokVeVysi": "secondchild",
-						"ztpp": "no",
-						"zletileDite": "no",
+						"ztpp": false,
+						"zletileDite": false,
 						"mesice": 4032
 					},
 					{
 						"narokVeVysi": "notapply",
-						"ztpp": "no",
-						"zletileDite": "no",
+						"ztpp": false,
+						"zletileDite": false,
 						"mesice": 63
 					}
 				]
