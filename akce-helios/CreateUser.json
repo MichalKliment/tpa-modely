@@ -10,8 +10,8 @@
 	"phoneNumber": "+420123456789", // Nepovinny
 	"twofactor": true, // Nepovinny
 	"isActive": true,// Nepovinny
-	"employeeCard": // Nepovinny 
-  {
+	"employeeCard": // Nepovinny založi kartu zamestnance
+    {
 		"datumNastupu": "2020-01-20T07: 59: 08.018Z" // Nepovinny
 		//... stejny model jako pro  updatekarty zamestnance
 	}
