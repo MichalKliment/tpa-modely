@@ -8,5 +8,9 @@
   "dps": "2020-01-20T07:59:08.018Z", // Nepovinny
   "phoneNumber": "+420123456789", // Nepovinny
   "twofactor": true, // Nepovinny
-  "isActive": true // Nepovinny
+  "isActive": true, // Nepovinny
+  "karta": {
+    //Model karty zaměstnance pro HeO
+  },
+  "forcePush": true
 }

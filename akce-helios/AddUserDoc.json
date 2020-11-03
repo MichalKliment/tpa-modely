@@ -1,13 +1,11 @@
+/*
+  SHOULD BE COMPLETED
+*/
+
 {
 	"uid": "0xAAAAA",
 	"tenancyName": "Helios3015",
 	"attachments": [
-		{
-			"fileId": "78e5490e-5274-4d72-84df-39a2b447566a",
-			"category": "UserPayroll",
-			"name": "ROK_MESIC_DRUH-PRA-POMERU",
-			"type": "application/pdf"
-		},
 		{
 			"fileId": "78e5490e-5274-4d72-84df-39a2b447566a",
 			"category": "Documents",
