@@ -1,0 +1,29 @@
+{
+    "tenancyName": "Helios3015",
+    "uid": "0xAAAAA",
+    "email": "michal@ralba.co",
+    "name": "Michal",
+    "surname": "Kliment",
+    "languageName": "cs-CZ", // Nepovinny
+    "dps": "2020-01-20T07: 59: 08.018Z", // Nepovinny
+    "roles": "Accountant,Employee,Approver", // Nepovinny
+    "phoneNumber": "+420123456789", // Nepovinny
+    "twofactor": true, // Nepovinny
+    "isActive": true,// Nepovinny
+}
+
+/// 
+{
+  "tenancyName": "Helios3015",
+  "rc": "",
+  "statniPrislusnost": "",
+  "email": "michal@ralba.co",
+  "name": "Michal",
+  "surname": "Kliment",
+  "languageName": "cs-CZ", // Nepovinny
+  "dps": "2020-01-20T07: 59: 08.018Z", // Nepovinny
+  "roles": "Accountant,Employee,Approver", // Nepovinny
+  "phoneNumber": "+420123456789", // Nepovinny
+  "twofactor": true, // Nepovinny
+  "isActive": true,// Nepovinny
+}

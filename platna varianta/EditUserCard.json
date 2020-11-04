@@ -1,8 +1,3 @@
-/*
-  
-  Pravděpodobně bude odstraněno
-
-*/
 
 {
     "tenancyName": "Helios3015",
@@ -10,7 +5,5 @@
     "karta": { // Nepovinny
         // zkraceny model pro HEO
     },
-    "app": {
-
-    }
+    "force": true // musi byt optional? 
 }

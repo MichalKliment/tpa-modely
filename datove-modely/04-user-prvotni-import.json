@@ -73,7 +73,13 @@
 						"ztpp": false,
 						"zletileDite": true,
 						"mesice": 63
-					}
+                    },
+                    {
+						"narokVeVysi": "firstchild",
+						"ztpp": true,
+						"zletileDite": true,
+						"mesice": 63
+                    },
 				]
 			},
 			{
