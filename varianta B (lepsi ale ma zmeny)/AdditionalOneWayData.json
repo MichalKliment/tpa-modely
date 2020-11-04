@@ -1,0 +1,25 @@
+/*
+  Bude upřesněno.
+*/
+
+{
+    "uuid": "0xAAAA",
+    "tenancyName": "Helios3011", 
+    "attributy": [
+        {
+          "nazev": "hodin",
+          "hodnota": "120",
+          "info": "ke dni 31.03.2020"
+        },
+        {
+          "nazev": "dovolene",
+          "hodnota": "14",
+          "info": "ke dni 31.03.2020"
+        },
+        {
+          "nazev": "sickdays",
+          "hodnota": "4",
+          "info": "ke dni 31.03.2020"
+        }
+    ]
+  }

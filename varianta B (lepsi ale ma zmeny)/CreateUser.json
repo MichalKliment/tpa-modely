@@ -10,7 +10,4 @@
     "phoneNumber": "+420123456789", // Nepovinny
     "twofactor": true, // Nepovinny
     "isActive": true,// Nepovinny
-    "karta": { // Nepovinny
-        // zkraceny model pro HEO
-    }
 }
