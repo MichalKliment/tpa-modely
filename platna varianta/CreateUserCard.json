@@ -6,6 +6,7 @@
         // zkraceny model pro HEO
     },
     "app": {
-        // prvotni import
-    }
+        // cast app z prvotni importu
+    },
+    "dodatecneAtributy": [] // do budoucna, nutno dořesit
 }

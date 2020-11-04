@@ -12,11 +12,12 @@
     "isActive": true,// Nepovinny
 }
 
-/// 
+/// pripadny model pro rodne čislo
 {
   "tenancyName": "Helios3015",
-  "rc": "",
-  "statniPrislusnost": "",
+  "rc": "123412/1230", // null u cizince
+  "datumNarozeni": "1989-06-04T22:00:00.000Z",
+  "statniPrislusnost": "cz",
   "email": "michal@ralba.co",
   "name": "Michal",
   "surname": "Kliment",

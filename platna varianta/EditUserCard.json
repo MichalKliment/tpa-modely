@@ -5,5 +5,6 @@
     "karta": { // Nepovinny
         // zkraceny model pro HEO
     },
-    "force": true // musi byt optional? 
+    "force": true, // musi byt optional?
+    "dodatecneAtributy": [] // do budoucna, nutno dořesit
 }

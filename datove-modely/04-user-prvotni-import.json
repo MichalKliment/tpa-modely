@@ -150,11 +150,10 @@
 		//// NUTNO VYRESIT
 		"typDokladu": "Pas", //NESYNCHRONIZUJE SE
 		"identifikace": "8905061597", //NESYNCHRONIZUJE SE
-
-		"zakladniSlevaNaInvaliditu": true, //NESYNCHRONIZUJE SE
-		"rozsirenaSlevaNaInvaliditu": true, //NESYNCHRONIZUJE SE
-		"slevaNaDrziteleZTPP": true, //NESYNCHRONIZUJE SE
-		"slevaNaStudenta": true //NESYNCHRONIZUJE SE
+		"zakladniSlevaNaInvalidituMesice": 4095, //NESYNCHRONIZUJE SE Flag
+		"rozsirenaSlevaNaInvalidituMesice": 4095, //NESYNCHRONIZUJE SE Flag
+		"slevaNaDrziteleZTPPMesice": 4095, //NESYNCHRONIZUJE SE Flag
+		"slevaNaStudentaMesice": 4095 //NESYNCHRONIZUJE SE Flag
 	},
 	"dodatecneAtributy": [
 		//SYNCHRONIZUJE SE, NUTNO DOŘEŠIT V HEO
