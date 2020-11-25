@@ -3,7 +3,7 @@
     "tenancyName": "Helios3015",
     "uid": "0xAAAAA",
     "year": 2020, // RZD za rok 2020
-	"dates": {
+	"datesForRZD": {
 		"lastDateForFirstSign": "2021-02-16T00:00:00.000Z", // datum do kdy je potřeba vyjadření - prvni vyplnění
 		"lastDateForEdit": "2021-03-01T00:00:00.000Z" // datum do kdy je možné žadat o změnit a dodávat chybějící dokumenty
 	}
