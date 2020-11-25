@@ -1,0 +1,17 @@
+
+{
+    "tenancyName": "Helios3015",
+    "uid": "0xAAAAA",
+    "year": 2020, // RZD za rok 2020
+	"dates": {
+		"lastDateForFirstSign": "2021-02-16T00:00:00.000Z", // datum do kdy je potřeba vyjadření - prvni vyplnění
+		"lastDateForEdit": "2021-03-01T00:00:00.000Z" // datum do kdy je možné žadat o změnit a dodávat chybějící dokumenty
+	}
+}
+
+
+// dates: je optional, bud plne, nebo žádné
+
+// je potřeba říct jestli máme od vas přebírat jen datum nebo i cas. 
+// Pokud i cas, tak bychom ho potřebovali v UTC formatu (aplikace pracuje v UTC)
+// cas je pouzit jako podminka pro uloženi - vyhodnocuje se jako < (menší než)
