@@ -136,7 +136,9 @@
 			"zdravPojistovna": 111, //[TamZamMzd/ZdravPojistovna] null pokud nema v čr
 			"cisloPojistence": "8905061597", // [TamZamMzd/CisloPojistence] null pokud nema v čr
 			"invalidita": 0, //NESYNCHRONIZUJE SE
-			"zdravotniZnevyhodneni": "ozz" //NESYNCHRONIZUJE SE
+            "zdravotniZnevyhodneni": "ozz", //NESYNCHRONIZUJE SE
+            "ztpp": false, //NESYNCHRONIZUJE SE,
+            "a1": true //NESYNCHRONIZUJE SE,
 		},
 		//// NUTNO VYRESIT
 		"formaVyplaty": "bankcr", //NESYNCHRONIZUJE SE
