@@ -1,0 +1,175 @@
+/**
+    parametry "karta" a "dodatecneAtributy" jsou stejne jako u zkraceneho modelu
+*/
+
+//Karta
+//App
+//DodatecneAtributy
+// maji bohuzel velkem picmenu kvuli c# :/
+
+
+{
+	"Karta": {
+		"permanentniAdresa": {
+			"ulice": "Uličková", //[TabCisZam/AdrTrvUlice]
+			"popCislo": "13", //[TabCisZam/AdrTrvPopCislo]
+			"orCislo": "12", //[TabCisZam/AdrTrvOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrTrvMisto]
+			"psc": "11000", //[TabCisZam/AdrTrvPSC]
+			"zeme": "Česká republika" // [TabCisZam/AdrTrvZeme]
+		}, // pripadne cele null
+		"kontaktniAdresa": {
+			"ulice": "Mostová", //[TabCisZam/AdrKontUlice]
+			"popCislo": "12", //[TabCisZam/AdrKontPopCislo]
+			"orCislo": "13", //[TabCisZam/AdrKontOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrKontMisto]
+			"psc": "12000", //[TabCisZam/AdrKontPSC]
+			"zeme": "Česká republika" //[TabCisZam/AdrKontZeme]
+		}, // pripadne cele null
+		"prechodnaAdresa": {
+			"ulice": "Plochá", //[TabCisZam/AdrPrechUlice]
+			"popCislo": "11", //[TabCisZam/AdrPrechPopCislo]
+			"orCislo": "91", //[TabCisZam/AdrPrechOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrPrechMisto]
+			"psc": "13000", //[TabCisZam/AdrPrechPSC]
+			"zeme": "Česká republika" //[TabCisZam/AdrPrechZeme]
+		}, // pripadne cele null
+		"jmeno": "John", //[TabCisZam/Jmeno]
+		"prijmeni": "Doe", //[TabCisZam/Prijmeni]
+		"email": "john@doe.cz", //[TabKontakty/Spojeni - druh 10]
+		"titulpred": "MSc.", //NESYNCHRONIZUJE SE
+		"titulza": "CSs.", //NESYNCHRONIZUJE SE
+		"rodnePrijmeni": "Doe", //[TabCisZam/RodnePrijmeni]
+		"pohlavi": "man", //NESYNCHRONIZUJE SE
+		"datumNarozeni": "1989-06-04T22:00:00.000Z", //[TabCisZam/DatumNarozeni]
+		"mistoNarozeni": "Karlovy Vary", //[TabCisZam/MistoNarozeni]
+		"rodneCislo": "8905061597", //[TabCisZam/RodneCislo]
+		"rodinnyStav": "divorced", //[TabCisZam/RodinnyStav]
+		"vzdelani": "A", //[TabZamVzd/Kod]
+		"pocetVychDeti": 2, // [TamZamMzd/PocetVychDeti]
+		"statniPrislusnost": "ge", //[TabCisZam/StatniPrislus]
+		"cisloUctu": "123456789", //[TabBankSpojeni/CisloUctu]  - null u zahraničího učtu
+		"idUstavu": "0200", //[TabBankSpojeni/IDUstavu] - null u zahraničího učtu
+		"iban": "1234567897897846513", //NUTNO DOŘEŠIT V HEO - null u českého učtu
+		"cisloDokladu": "2005612315", //[TabCisZam/CisloOP/CisloPasu]
+		"datumExpirace": "2021-05-25T22:00:00.000Z", // [TabCisZam/PlatnostOP/PlatnostPasu]
+		"chciProhlaseni": true, //[TabZamMzd/Dan_PodpisProhl]
+		"datumNástupu": "2021-05-25T22:00:00.000Z"
+	},
+	"App": {
+		"deti": [
+			// --------------
+			//
+			// NUTNO vyyřesit
+			//
+			// --------------
+			{
+				"jmeno": "Radek",
+				"prijmeni": "Nový",
+				"rodneCislo": "0000251651",
+				"uplatneni": [
+					{
+						"narokVeVysi": "firstchild",
+						"ztpp": false,
+						"zletileDite": false,
+						"mesice": 4032
+					},
+					{
+						"narokVeVysi": "firstchild",
+						"ztpp": false,
+						"zletileDite": true,
+						"mesice": 63
+                    },
+                    {
+						"narokVeVysi": "firstchild",
+						"ztpp": true,
+						"zletileDite": true,
+						"mesice": 63
+                    },
+				]
+			},
+			{
+				"jmeno": "Anna",
+				"prijmeni": "Nová",
+				"rodneCislo": "1056052020",
+				"uplatneni": [
+					{
+						"narokVeVysi": "secondchild",
+						"ztpp": false,
+						"zletileDite": false,
+						"mesice": 4032
+					},
+					{
+						"narokVeVysi": "notapply",
+						"ztpp": false,
+						"zletileDite": false,
+						"mesice": 63
+					}
+				]
+			}
+		],
+		"permanentniAdresa": {
+			"ulice": "Uličková", //[TabCisZam/AdrTrvUlice]
+			"popCislo": "13", //[TabCisZam/AdrTrvPopCislo]
+			"orCislo": "12", //[TabCisZam/AdrTrvOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrTrvMisto]
+			"psc": "11000", //[TabCisZam/AdrTrvPSC]
+			"zeme": "Česká republika" // [TabCisZam/AdrTrvZeme]
+		}, // pripadne cele null
+		"kontaktniAdresa": {
+			"ulice": "Mostová", //[TabCisZam/AdrKontUlice]
+			"popCislo": "12", //[TabCisZam/AdrKontPopCislo]
+			"orCislo": "13", //[TabCisZam/AdrKontOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrKontMisto]
+			"psc": "12000", //[TabCisZam/AdrKontPSC]
+			"zeme": "Česká republika" //[TabCisZam/AdrKontZeme]
+		}, // pripadne cele null
+		"prechodnaAdresa": {
+			"ulice": "Plochá", //[TabCisZam/AdrPrechUlice]
+			"popCislo": "11", //[TabCisZam/AdrPrechPopCislo]
+			"orCislo": "91", //[TabCisZam/AdrPrechOrCislo]
+			"mesto": "Praha", //[TabCisZam/AdrPrechMisto]
+			"psc": "13000", //[TabCisZam/AdrPrechPSC]
+			"zeme": "Česká republika" //[TabCisZam/AdrPrechZeme]
+		}, // pripadne cele null
+		"zdravotniPojistovnaAStav": {
+			"duchody": {
+				"pobiramDuchod": true, //NESYNCHRONIZUJE SE, bude vydedukováno
+				"predcasny": true, // SYNCHRONIZUJE SE, NUTNO URČIT ATRIBUT V HEO [TabDuchod/DruhDuchodu]
+				"invalidni": true, // SYNCHRONIZUJE SE, NUTNO URČIT ATRIBUT V HEO [TabDuchod/DruhDuchodu]
+				"starobni": true // SYNCHRONIZUJE SE, NUTNO URČIT ATRIBUT V HEO [TabDuchod/DruhDuchodu]
+			},
+			"zdravPojistovna": 111, //[TamZamMzd/ZdravPojistovna] null pokud nema v čr
+			"cisloPojistence": "8905061597", // [TamZamMzd/CisloPojistence] null pokud nema v čr
+			"invalidita": 0, //NESYNCHRONIZUJE SE
+            "zdravotniZnevyhodneni": "ozz", //NESYNCHRONIZUJE SE
+            "ztpp": false, //NESYNCHRONIZUJE SE,
+            "a1": true //NESYNCHRONIZUJE SE,
+		},
+		//// NUTNO VYRESIT
+		"formaVyplaty": "bankcr", //NESYNCHRONIZUJE SE
+		"cisloUctu": "123456789", //[TabBankSpojeni/CisloUctu]  null u zahraničího učtu
+		"idUstavu": "0200", //[TabBankSpojeni/IDUstavu]  null u zahraničího učtu
+		"iban": "1234567897897846513", // NUTNO DOŘEŠIT V HEO - null u českého učtu
+		"zakladniSlevaNaPoplatnika": true, //NESYNCHRONIZUJE SE
+		//// NUTNO VYRESIT
+		"mamdeti": true, //NESYNCHRONIZUJE SE
+		"rezidentura": "true", // [TabZamMzd/NerezidentDane] NUTNO DOSPECIFIKOVAT, STÁT NEBO TRUE/FALSE
+		//// NUTNO VYRESIT
+		"typDokladu": "Pas", //NESYNCHRONIZUJE SE
+		"identifikace": "8905061597", //NESYNCHRONIZUJE SE
+		"zakladniSlevaNaInvalidituMesice": 4095, //NESYNCHRONIZUJE SE Flag
+		"rozsirenaSlevaNaInvalidituMesice": 4095, //NESYNCHRONIZUJE SE Flag
+		"slevaNaDrziteleZTPPMesice": 4095, //NESYNCHRONIZUJE SE Flag
+		"slevaNaStudentaMesice": 4095 //NESYNCHRONIZUJE SE Flag
+	},
+	"DodatecneAtributy": [  
+		//SYNCHRONIZUJE SE, NUTNO DOŘEŠIT V HEO
+		{
+			"nazev": "Velikost rukavic",
+			"value": "M",
+			"type": "string",
+			"placeholder?": "S / M / L /XL"
+		}
+	] //pripadne null
+}
