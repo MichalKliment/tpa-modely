@@ -1,0 +1,10 @@
+
+{
+    "tenancyName": "Helios3015",
+    "uid": "0xAAAAA",
+    "karta": { // Nepovinny
+        // zkraceny model pro HEO
+    },
+    "force": true, // musi byt optional?
+    "dodatecneAtributy": [] // do budoucna, nutno dořesit
+}
